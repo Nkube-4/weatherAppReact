@@ -1,0 +1,54 @@
+html, body {
+   min-height: 100vh;
+   /* background-color: red; */
+}
+
+#root {
+   height: 120%;
+   background-image: url("weatherBackgrounds/main.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.main {
+   min-height: 100%;
+   /* background-color: black!important; */
+   
+}
+
+.search {
+   margin-bottom: .5rem;
+   min-height: 5%;
+}
+
+.currentForecast {
+   margin-bottom: 1.5rem;
+   min-height: 40%;
+}
+
+.listDisplay {
+   min-height: 40%;
+}
+
+.cityList {
+   
+}
+
+.cityCard {
+   margin-bottom: .5rem!important;
+}
+
+.forecastCard {
+   margin-bottom: .5rem!important;
+}
+
+.card {
+   text-align: center!important;
+   background: rgba(255, 255, 255, .7) !important;
+}
+
+.bigText {
+   font-size: 1.2rem !important;
+}
+
